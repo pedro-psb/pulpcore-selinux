@@ -4,7 +4,7 @@ on:
   - push
 jobs:
   docs:
-    uses: "./.github/workflows/docs-ci.yml"
+    uses: "pulp/pulp-docs/.github/workflows/docs-ci.yml@experiment-reusable-ci-workflow"
 
   centos:
     runs-on: ubuntu-latest
